@@ -1,0 +1,128 @@
+/* Set the global fonts and background */
+body {
+	font-family: Helvetica, Calibri, sans-serif; 
+    background-image: url(../media/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+/* Define header styling */
+#header {
+	height: 60px;
+    font-size: 20px;
+	color: #000000;
+	padding-right: 20px;
+	font-family: Magneto, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#logo {
+    float: left;
+}
+
+/* Secondary Header */
+#secondary { 
+    margin-top: 20px;
+	height: 30px;
+	background: #000000;
+}
+
+/* Center content with this id */
+#centercontent {
+	margin-top: 20px;
+	margin-left: 20%;
+	text-align: center;
+}
+
+/* Align content with this id to the left */
+#leftcontent {
+	margin-top: 20px;
+	margin-left: 20%;
+	text-align: left;
+}
+
+/* Sidebar Styling */
+#sidebar {
+	height: 100%;
+	float: left;
+	background: black;
+	color: #000000;
+	line-height: 40px;
+	padding-bottom: 400%;
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 12%;
+	font-size: 24px;
+	text-align: left;
+}
+
+/* Link Styles */
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Fancy hovers over links */
+a:hover,
+a:active {
+	outline: 0;
+}
+
+a:active,
+a:hover {
+	color: #0066FF;
+}
+
+/* Change the color of the link to the current page */
+.currentpage {
+	color: #00CCFF
+}
+
+/* Home header */
+.subheader {
+	font-size: 28px;
+}
+
+/* Add spacing after text with this class */
+.spacing {
+	margin-bottom: 35px;
+}
+
+/* Blog content divs */
+.blog {
+	border: 2px solid black;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 30px;
+    color: black;
+}
+
+/* Blog date formatting */
+.date {
+	font-size: 20px;
+	font-style: italic;
+}
+
+/* Image center class */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* Story formatting */
+.story {
+	font-size: 16px;
+	color: black;
+}
+
+/* Non sidebar link formatting */
+.link {
+    color: black;
+}
+
+/* CSS and HTML validation */
+.validation {
+    margin-top: 8%;
+}
